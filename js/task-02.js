@@ -15,7 +15,7 @@ const items = ingredients.map((ingredient) => {
   return liEl;
 });
 
-ulElement.append(...items);
+ulElement.append(...items); 
 
 
 

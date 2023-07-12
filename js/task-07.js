@@ -9,3 +9,5 @@ const fontSizeControl = ({ currentTarget }) =>
   (textToChange.style.fontSize = `${currentTarget.value}px`);
 
 rangeInput.addEventListener('input', fontSizeControl);
+
+console.log();
